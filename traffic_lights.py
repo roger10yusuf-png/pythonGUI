@@ -16,12 +16,12 @@ def green():
     
 
 label = Label(window, text="Colours", bg="white", fg="black", font=("bold", 50))
-label.pack(anchor="center")
+label.place(x= 300, y= 0)
 button = Button(window, text="red", font=("arial", 55), command=red)
-button.pack(anchor="center",)
+button.place(x=0, y=375)
 button2 = Button(window, text="yellow", font=("arial", 55), command=yellow)
-button2.pack(anchor="center")
+button2.place(x= 250, y= 375)
 button3 = Button(window, text="green", font=("arial", 55), command=green)
-button3.pack(anchor="center")
+button3.place(x= 600, y= 375)
 
 window.mainloop()
